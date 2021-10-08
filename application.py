@@ -60,4 +60,4 @@ def delete(todo_id):
 
 if __name__ == "__main__":
     db.create_all()
-    application.run(debug=True)
+    application.run(host='0.0.0.0',port=8080,debug=True)
