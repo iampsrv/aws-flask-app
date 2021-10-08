@@ -1,4 +1,4 @@
 #!/bin/bash
 cd /home/ubuntu/new/aws-flask-app
-source venv/bin/activate
+pip install -r requirements.txt
 python application.py
